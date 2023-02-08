@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d7b539bbb3c5049b43113b96dab714, type: 3}
+  m_Name: Parameter_DroguhtItemList1
+  m_EditorClassIdentifier: 
+  parameterType: 1
+  useCustomAmount: 1
+  customAmount: 1
+  itemsToCheck:
+  - customItem: {fileID: 11400000, guid: 5cf8ffd987025464687fa3933f369e76, type: 2}
+    amount: 1
+  - customItem: {fileID: 11400000, guid: 9966734f384522f40b5ca84cfd447818, type: 2}
+    amount: 1
+  - customItem: {fileID: 11400000, guid: f7befecd6a4e3bb48b21a8ff26b59da5, type: 2}
+    amount: 1

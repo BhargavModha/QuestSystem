@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d156f0eb0190d5047a225bbf9ed14e15, type: 3}
+  m_Name: FireQuest
+  m_EditorClassIdentifier: 
+  questName: FireQuest
+  questDescription: 
+  icon: {fileID: 21300000, guid: 07cdaf4545e5aaf419e68bc48f44e43d, type: 3}
+  isQuestActive: 0
+  isQuestCompleted: 1
+  resetOnce: 0
+  allGoals:
+  - goalName: SmokeFollow
+    goalDescription: Find out where the smoke is coming from
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 44c20d94e0ae215458eeedb5c2183c79, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 1038cfc4ad0585846b827abc8d75fef2, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: ExtinguishHut
+    goalDescription: Try to put out the fire in the Hut.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 79007e3b382ccaa4faf1be4c622174e4, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: dcde855f4a6b3944bb094e657f7dd464, type: 2}
+    - {fileID: 11400000, guid: 406b62577e0aeb845a474b3478bfaa83, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Scoping Clue
+    goalDescription: Examine the extent of the fire damage
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: b018697ff5e70ed4ab99b38655834aa9, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 4445b2459ff63af4da016e5234534eaa, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Discovery
+    goalDescription: Find something that has survived the fire
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: be143e3f7112e51469a4509f48f74c44, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: fbdecd4c824ce6043b9aa1401a807c74, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: GatherMaterials1
+    goalDescription: Gather 3 materials needed for the Fireproof Material.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 7173cd62a65653947bb57f5d93635abd, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 8cb585d4d89d405488abb847998c61d5, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: GatherMaterials2
+    goalDescription: Gather 2 materials needed for the Fireproof Material.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 65b7902f65823a548ad55ea913d6d5bb, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 205983617e2b2aa4c8311556c92143e4, type: 2}
+    - {fileID: 11400000, guid: fae7e58307c0c5a41a588e007540afff, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: GatherMaterials3
+    goalDescription: Gather 1 material needed for the Fireproof Material.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: cfc91bcf1da87814984191f21dfb7fdd, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: e6d6d40892f24e34ba8bb8878a8ee7a4, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: DeviceCrafting
+    goalDescription: Craft the Fireproof Material Device using Alchemy
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: cdb9acb2622e0a148905ebc1a115c724, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: c15a988b5b411ea45a64068d48c07056, type: 2}
+    - {fileID: 11400000, guid: 36032a60e38d0f243bb4df443cb670d9, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: QuestComplete
+    goalDescription: Place the Fireproof Material on the hut.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: bcc35caaa52958b4ab89f02876d8907b, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 30de5493addbc04479f0b01f7cef0022, type: 2}
+    - {fileID: 11400000, guid: 5af73a6006fcf554997393cbd5877c96, type: 2}
+    debugSkip: 0
+    hideInBook: 0

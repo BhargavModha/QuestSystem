@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d156f0eb0190d5047a225bbf9ed14e15, type: 3}
+  m_Name: Quest1
+  m_EditorClassIdentifier: 
+  questName: Injured Ibex
+  questDescription: This description will be NOT displayed in the book
+  icon: {fileID: 21300000, guid: a4411b5351faed44cba0127971ad3baf, type: 3}
+  isQuestActive: 0
+  isQuestCompleted: 1
+  resetOnce: 0
+  allGoals:
+  - goalName: Enter the hut
+    goalDescription: Enter the hut
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 542f3bdc7f7ec1449b40e3b68083ea78, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: b75426d6735bef5478a630ea61933f18, type: 2}
+    - {fileID: 11400000, guid: 824d121e0734ba14faf30b5abecce5c6, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Talk to Book
+    goalDescription: Explore the hut
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: cf9861ef4506c4844b16ef93b4f8954b, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 8ff2caa8a34c6df439c712f24a1c6c59, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Talking with Ibex
+    goalDescription: "Talk with the injured Ibex\r"
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 329343385dcc04b4f845f8ee733efe0a, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: bdd8d8aeaa1c64749beeaf66accd286f, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Collect One
+    goalDescription: Start collecting the indredients
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 2f9c05d79006bd249b46e2ad0ac69ff1, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 83674df22d797e34695c5c5d90cb05a3, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Collect two
+    goalDescription: Collect the reaming two indredients
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 8698082bdce68cf4b99966687af96d81, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 0c7ce30e5e2a46d40bfa00d527599453, type: 2}
+    debugSkip: 0
+    hideInBook: 1
+  - goalName: Collect Remaining
+    goalDescription: Collect the <b>Damascus Rose</b>, <b>Jar of Oil</b> and <b>Beeswax</b>
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 9828ba8aeeda3d64c8d1c01a97d8e110, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 68e44ccc8f4d04d4f9dd452898b90595, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Craft Salve
+    goalDescription: Craft a healing salve using alchemy
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 246bd5eeec45c7340b6f9dc294a792b4, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: d37aeb6ae6443da43953f06ff373ffeb, type: 2}
+    - {fileID: 11400000, guid: 85afee990c92b41469ee8ec5abf69d4c, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Talk to ibex to give salve
+    goalDescription: Give the healing salve to the ibex
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 3c370d9e724894d43b22f47eae7e031c, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 4600a80837bcb1345a26a7d8a170d60c, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Go through the portal
+    goalDescription: Take the portal to the Levant.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 3934e9679c0930d41bf48c4c5e6b425e, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 3baf14769d39cb747be5752571cee338, type: 2}
+    - {fileID: 11400000, guid: 83c0337dc81621241a813db7a4e19e75, type: 2}
+    debugSkip: 0
+    hideInBook: 0

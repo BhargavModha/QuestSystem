@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d156f0eb0190d5047a225bbf9ed14e15, type: 3}
+  m_Name: Quest2
+  m_EditorClassIdentifier: 
+  questName: DroughtQuest
+  questDescription: Drought quest
+  icon: {fileID: 21300000, guid: bbc21e4e33fa6374bbf471e491f04927, type: 3}
+  isQuestActive: 0
+  isQuestCompleted: 1
+  resetOnce: 0
+  allGoals:
+  - goalName: ScopingClue
+    goalDescription: Explore the Levant!
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: ceb543e40a47170489ee2df03a1ce61a, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: cb9941d4c5c58a44b959662e75082c7c, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: LevelExplore
+    goalDescription: Find something that has survived the drought.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 281204317e624f445b008edeca0c38c6, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 56f20c80cd88ba548b453b0d2e97321c, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Item1
+    goalDescription: Start gathering materials needed for the Water Retention Device
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 055715f1e0eb08045b629a678f966aa3, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 37646f3a4332b5a438b2533052884fe3, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: Item2
+    goalDescription: Gather 2 more materials
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 510615a99663b7646a6568a0bf145ef2, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 0c7ce30e5e2a46d40bfa00d527599453, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: GatherMaterials
+    goalDescription: Gather the last materials
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: f449b72506a2fe84d9a2de2d381a58f3, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 5975790713e34cc4f92186f3c3038e2a, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: DeviceCrafting
+    goalDescription: Craft the Water Retention Device using Alchemy
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: 3a5562a9110302d42b8dcfc868dab9bd, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: 71f5622b12cd81246bffb910227735b1, type: 2}
+    - {fileID: 11400000, guid: 961612d126ee34d48839fc6a1398b5e5, type: 2}
+    debugSkip: 0
+    hideInBook: 0
+  - goalName: QuestComplete
+    goalDescription: Place the Water Retention Device down.
+    isGoalActive: 0
+    isGoalCompleted: 1
+    questParameters: {fileID: 11400000, guid: e40de31011618f447932c5413493da0b, type: 2}
+    questRewards:
+    - {fileID: 11400000, guid: e48dc4b603440e742921f9b6ea2d2244, type: 2}
+    debugSkip: 0
+    hideInBook: 0

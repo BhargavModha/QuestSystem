@@ -13,9 +13,7 @@ public class Quest : ScriptableObject {
     public string questDescription;
     public Sprite icon;
     
-    // [HideInInspector] 
     public bool isQuestActive = false;
-    // [HideInInspector] 
     public bool isQuestCompleted = false;
 
     public bool resetOnce;

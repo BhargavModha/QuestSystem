@@ -19,9 +19,7 @@ public class QuestGoal
     [TextArea]
     public string goalDescription;
 
-    // [HideInInspector]    
     public bool isGoalActive;
-    // [HideInInspector]    
     public bool isGoalCompleted;
 
     [Header("Parameter")] 

@@ -29,15 +29,13 @@ public class StoryProgress : MonoBehaviour
 
     [HideInInspector] public List<Quest> allQuests;
     [HideInInspector] public List<QuestRef> activeGoals;
+    [HideInInspector] public NPC currentNPC = null;
 
     [System.Serializable]
     public struct QuestRef {
         public int questIndex;
         public int goalIndex;
     }
-
-    [HideInInspector] public NPC currentNPC = null;
-
 
     [System.Serializable]
     public struct StoryEvent {
@@ -54,8 +52,10 @@ public class StoryProgress : MonoBehaviour
         dialogueRunner = GetComponent<DialogueRunner>();
         currentStory = this;
 
+        // Play Custom Cutscene
         dialogueRunner.AddCommandHandler<string>("PlayTimeline", StartTimeline);
 
+        // Call Functions from Yarn Files
         dialogueRunner.AddCommandHandler("OpenBook_Recipe", OpenBookWithRecipe);
         dialogueRunner.AddCommandHandler("OpenBook_Compendium", OpenBookWithCompendium);
         dialogueRunner.AddCommandHandler("EndGame", StartEnd);
@@ -158,28 +158,7 @@ public class StoryProgress : MonoBehaviour
 
     // ---------------------------------------------------------- 
     // Compendium
-
-    // public void UnlockCompendium(string itemName){
-        // Item.ItemType type = (Item.ItemType) System.Enum.Parse(typeof(Item.ItemType), itemName, true);
-
-        // bool alreadyExists = false;
-        // Item newItem = new Item{itemType = type, amount = 1};
-
-        // foreach(Item item in customInventory.discoveredInventory){
-        //     if(item.itemType == type){
-        //         alreadyExists = true;
-        //         break;
-        //     }
-        // }
-
-        // if (alreadyExists == false){
-        //     customInventory.discoveredInventory.Add(newItem);
-        //     UI_Book.currentBookUI.PopulateCompendium();
-        // }
-
-        // SetPickedUpItem(newItem);
-        
-    // }
+    // Unlocks compendium entry after player picks up an item
 
     public void UnlockCompendium(CustomItem unlockItem){
 
